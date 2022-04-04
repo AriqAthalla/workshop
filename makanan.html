@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pilihan Makanan</title>
+</head>
+<body>
+	<center>
+		<fieldset style="width: 800px; margin; auto">
+	<h3 style="text-align:center;">Menu Makanan</h3>
+	<div class="Menu Makanan">
+	<P> 1. Ayam Penyek </P>
+	<td><select name="Level">
+		<option>Pilihan Level Mie Iblis</option>
+		<option>Level 0-4=9.500</option>
+		<option>Level 6-8=10.500</option>
+	</td></select>
+	<P> 2. Ayam Geprek </P>
+	<td><select name="Level">
+		<option>pilihan Level Mie Setan</option>
+		<option>Level 1-4=9.500</option>
+		<option>Level 6-8=10.500</option>
+	</td></select>
+	<P> 3. Ayam Bakar </P>
+	<td><select name="Level">
+		<option>Pilihan Level Mie Iblis</option>
+		<option>Level 0-4=9.500</option>
+		<option>Level 6-8=10.500</option>
+	</td></select>
+	<div class="container">
+		<form action="proses.php" method="post">
+			<ul>
+			<ul>
+				<label for="makanan">Masukkan Kode Mie : </label>
+				<input type="number" name="makanan" max="5" min="1" required="">
+			</ul>
+			<ul><br>
+				<label>Banyaknya Pesanan : </label>
+				<input type="number" name="jumlah" min="1" required="">
+			</ul>
+			<ul><br>
+				<button type="submit" name="pesan">Pesan</button>
+			</ul>
+		</ul>
+		</form>
+	</div>
+</td>
+</fieldset>
+</center>
+</body>
+</html>
